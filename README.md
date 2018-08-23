@@ -35,7 +35,12 @@ The following snippet of code will give the basic version of the SDK where the o
     fullScreen:   false,  // is full screen，default false
     minimize:     0,      // minimize，0-disappear，1-hide at the bottom
     userId:       "",     // User ID
-    userInfo: {}
+    pubkey:       "XXX",  //
+    env:          "prod",
+    async:        false,
+    userInfo: {
+      "extra" : "something"
+    }
   });
   wulai.setServiceName("BotName");  // Set the Bot Name
 
@@ -58,9 +63,14 @@ When you want to change some initialized infomation, you can use `open()` method
 
 ```
 wulai.open({
-    fullScreen: true,
-    userId: "XXXXX",
-    minimize: 0,
-    userInfo: {}
+  fullScreen:   true,
+  userId:       "XXXXX",
+  minimize:     0,
+  pubkey:       "XXX", // Wulai key
+  env:          "prod", // production or development env
+  async:        false,
+  userInfo: {
+    "extra" : "something"
+  }
 });
 ```
