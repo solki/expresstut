@@ -23,7 +23,7 @@ The following snippet of code will give the basic version of the SDK where the o
 1. After `<head>` tag
 
 ```
-<script src="http://\*your-url-address\*/static/build/wulai.min.js"></script>
+<script src="http://your-url-address/static/build/wulai.min.js"></script>
 ```
 
 2. After `<body>` tag
