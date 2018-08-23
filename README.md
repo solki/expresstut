@@ -50,7 +50,7 @@ This code will load and initialize the SDK. You must replace the value in *your-
 
 > General usage
 
-`.open()`
+`wulai.open()`
 
 > Advanced usage
 
