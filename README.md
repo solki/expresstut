@@ -11,7 +11,7 @@ The **Wulai Web SDK** for JavaScript provides a rich set of client-side function
 This quickstart will show you how to set up the SDK. If you don't want to set up now, you can explore some samples below.
 
 >**Supported Browsers**
-
+>
 >The Wulai Web SDK supports the latest two versions of the most popular browsers: Chrome, Firefox, Edge and Safari (including iOS).
 
 ### Basic Setup
