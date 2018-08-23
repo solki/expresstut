@@ -26,7 +26,7 @@ The following snippet of code will give the basic version of the SDK where the o
 <script src="http://your-url-address/static/build/wulai.min.js"></script>
 ```
 
-This is the 1st release of Wulai Web SDK `wulai-1.0.min.js`
+>This is the 1st release of Wulai Web SDK `wulai-1.0.min.js`
 
 2. After `<body>` tag
 
@@ -55,11 +55,11 @@ This code will load and initialize the SDK. You must replace the value in *your-
 
 ### Open the Live-chat window
 
-> General usage
+1. General usage
 
 `wulai.open()`
 
-> Advanced usage
+2. Advanced usage
 
 When you want to change some initialized infomation, you can use `open()` method to fulfill it.
 
