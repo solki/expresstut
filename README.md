@@ -31,24 +31,36 @@ The following snippet of code will give the basic version of the SDK where the o
 ```
 <script>
   var wulai = new WuLai({
-    autoOpen:     true,   // 是否自动打开，默认false
-    fullScreen:   false,  // 是否全屏，默认false
-    minimize:     0,      // 最小化方式，0表示消失，1表示最小化到底部
-    userId:       "",     // 用户ID
-    userInfo: {
-      "campaign": {
-        "gclid":        "gcl_id_123",
-        "utm_source":   "source_a",
-        "utm_medium":   "medium_b",
-        "utm_campaign": "utm_campaign_c",
-        "utm_term":     "term_x",
-        "utm_content":  "content_y"
-      }
-    }
+    autoOpen:     false,  // is live chat window auto opened，default false
+    fullScreen:   false,  // is full screen，default false
+    minimize:     0,      // minimize，0-disappear，1-hide at the bottom
+    userId:       "",     // User ID
+    userInfo: {}
   });
-  wulai.setServiceName("BotName");
+  wulai.setServiceName("BotName");  // Set the Bot Name
 
 </script>
 ```
 
 This code will load and initialize the SDK. You must replace the value in *your-url-address* with the url of a specific domain. You can find help with the domain name setup from our support.
+
+## Reference
+
+### Open the Live-chat window
+
+> General usage
+
+`.open()`
+
+> Advanced usage
+
+When you want to change some initialized infomation, you can use `open()` method to fulfill it.
+
+```
+wulai.open({
+    fullScreen: true,
+    userId: "XXXXX",
+    minimize: 0,
+    userInfo: {}
+});
+```
