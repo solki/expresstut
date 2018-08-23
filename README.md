@@ -26,6 +26,8 @@ The following snippet of code will give the basic version of the SDK where the o
 <script src="http://your-url-address/static/build/wulai.min.js"></script>
 ```
 
+This is the 1st release of Wulai Web SDK `wulai-1.0.min.js`
+
 2. After `<body>` tag
 
 ```
