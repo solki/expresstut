@@ -23,7 +23,7 @@ The following snippet of code will give the basic version of the SDK where the o
 1. After `<head>` tag
 
 ```
-<script src="http://server.url/static/build/wulai.min.js"></script>
+<script src="http://*your-url-address*/static/build/wulai.min.js"></script>
 ```
 
 2. After `<body>` tag
@@ -50,3 +50,5 @@ The following snippet of code will give the basic version of the SDK where the o
 
 </script>
 ```
+
+This code will load and initialize the SDK. You must replace the value in *your-url-address* with the url of a specific domain. You can find help with the domain name setup from our support.
